@@ -1,0 +1,32 @@
+{
+  "tasks": [
+    { "id": 1, "name": "Complete assignment", "createdAt": "2024-07-20T10:30:00" },
+    { "id": 2, "name": "Review project plan", "createdAt": "2024-07-21T12:45:00" },
+    { "id": 3, "name": "Team meeting", "createdAt": "2024-07-22T09:00:00" },
+    { "id": 4, "name": "Write documentation", "createdAt": "2024-07-23T14:15:00" },
+    { "id": 5, "name": "Fix bugs in code", "createdAt": "2024-07-24T16:30:00" },
+    { "id": 6, "name": "Update website", "createdAt": "2024-07-25T11:00:00" },
+    { "id": 7, "name": "Test new features", "createdAt": "2024-07-26T13:20:00" },
+    { "id": 8, "name": "Prepare presentation", "createdAt": "2024-07-27T08:45:00" }
+  ],
+  "taskQueue": [
+    { "task_id": 1, "status": "pending", "updatedAt": "2024-07-28T15:00:00" },
+    { "task_id": 2, "status": "in progress", "updatedAt": "2024-07-28T16:30:00" },
+    { "task_id": 3, "status": "completed", "updatedAt": "2024-07-28T17:45:00" },
+    { "task_id": 4, "status": "pending", "updatedAt": "2024-07-28T18:00:00" },
+    { "task_id": 5, "status": "in progress", "updatedAt": "2024-07-28T19:30:00" },
+    { "task_id": 6, "status": "completed", "updatedAt": "2024-07-28T20:00:00" },
+    { "task_id": 7, "status": "pending", "updatedAt": "2024-07-28T21:15:00" },
+    { "task_id": 8, "status": "in progress", "updatedAt": "2024-07-28T22:00:00" }
+  ],
+  "notifications": [
+    { "id": 1, "site_name": "Task Manager", "type": "email", "content": "Your task is due soon.", "category": "reminder", "time": "2024-07-28T10:00:00" },
+    { "id": 2, "site_name": "Task Manager", "type": "site notification", "content": "You have a new task assigned.", "category": "assignment", "time": "2024-07-28T11:00:00" },
+    { "id": 3, "site_name": "Project Tracker", "type": "email", "content": "Project deadline approaching.", "category": "deadline", "time": "2024-07-28T12:00:00" },
+    { "id": 4, "site_name": "Project Tracker", "type": "site notification", "content": "Project meeting scheduled.", "category": "meeting", "time": "2024-07-28T13:00:00" },
+    { "id": 5, "site_name": "Bug Tracker", "type": "email", "content": "New bug reported.", "category": "bug report", "time": "2024-07-28T14:00:00" },
+    { "id": 6, "site_name": "Bug Tracker", "type": "site notification", "content": "Bug fix required.", "category": "bug fix", "time": "2024-07-28T15:00:00" },
+    { "id": 7, "site_name": "Task Manager", "type": "email", "content": "Task marked as completed.", "category": "completion", "time": "2024-07-28T16:00:00" },
+    { "id": 8, "site_name": "Task Manager", "type": "site notification", "content": "New comment on your task.", "category": "comment", "time": "2024-07-28T17:00:00" }
+  ]
+}
